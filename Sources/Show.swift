@@ -18,9 +18,13 @@ enum ModelError: Error {
     case unableToLoginToExternal
 }
 
+private struct Constants {
+    static let tvdbAPIKey = "463033F6887DEE59"
+}
 
 
 class Show: PostgresStORM {
+
     var id = 0
     var tvdb_show_id = 0
     var last_aired_season = 1
@@ -43,6 +47,7 @@ class Show: PostgresStORM {
         picture_url = this.data["picture_url"] as! String
         last_aired_season = this.data["last_aired_season"] as! Int
         last_aired_episode = this.data["last_aired_episode"] as! Int
+        last_aired_eposide_on = this.data["last_aired_eposide_on"] as! String
     }
 
     func rows() -> [Show] {
@@ -113,13 +118,12 @@ class Show: PostgresStORM {
 
 
     private func loginToExternal() -> String? {
-        let tvdbAPIKey = "463033F6887DEE59"
 
         //Call Login
         //curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{"apikey":"463033F6887DEE59"}' 'https://api.thetvdb.com/login'
 
         let loginCurlObject = CURL(url: "https://api.thetvdb.com/login")
-        let loginString = "{\"apikey\":\""+tvdbAPIKey+"\"}"
+        let loginString = "{\"apikey\":\""+Constants.tvdbAPIKey+"\"}"
         let byteArray = [UInt8](loginString.utf8)
 
         //Headers
