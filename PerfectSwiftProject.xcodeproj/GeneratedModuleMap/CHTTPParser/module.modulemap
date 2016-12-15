@@ -1,0 +1,5 @@
+module CHTTPParser {
+    umbrella "/Users/Volantis/Documents/OMTS/Projects/RD/PerfectSwiftProject/Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include"
+    link "CHTTPParser"
+    export *
+}

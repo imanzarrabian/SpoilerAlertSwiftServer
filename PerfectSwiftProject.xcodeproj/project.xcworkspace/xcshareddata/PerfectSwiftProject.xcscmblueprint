@@ -1,0 +1,58 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "907EEBE93BDC282B142DE4EEA580D5C5C12D2916",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "907EEBE93BDC282B142DE4EEA580D5C5C12D2916" : 9223372036854775807,
+    "735A06A83BD3E78D8C3B53C09F33A6FB7CEBF8E1" : 9223372036854775807,
+    "6F1260245BD69EFA9A05D126763C86280510C6E1" : 9223372036854775807,
+    "024F03EBC39374C255EF4B6582114D2A31839058" : 9223372036854775807,
+    "3B905509A4DD1F5305D27EF37A9F71F239F93941" : 9223372036854775807,
+    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2852D8A2-819F-4C79-AED2-458C1C136467",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "907EEBE93BDC282B142DE4EEA580D5C5C12D2916" : "SpoilerAlertSwiftServer\/",
+    "735A06A83BD3E78D8C3B53C09F33A6FB7CEBF8E1" : "SpoilerAlertSwiftServer\/Packages\/PerfectLogger-0.0.7\/",
+    "6F1260245BD69EFA9A05D126763C86280510C6E1" : "SpoilerAlertSwiftServer\/Packages\/PerfectNet-2.0.3\/",
+    "024F03EBC39374C255EF4B6582114D2A31839058" : "SpoilerAlertSwiftServer\/Packages\/PostgreSQL-2.0.1\/",
+    "3B905509A4DD1F5305D27EF37A9F71F239F93941" : "SpoilerAlertSwiftServer\/Packages\/PerfectCURL-2.0.0\/",
+    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : "SpoilerAlertSwiftServer\/Packages\/PerfectHTTP-2.0.5\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PerfectSwiftProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PerfectSwiftProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-PostgreSQL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "024F03EBC39374C255EF4B6582114D2A31839058"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-Curl.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B905509A4DD1F5305D27EF37A9F71F239F93941"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-Net.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F1260245BD69EFA9A05D126763C86280510C6E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-Logger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "735A06A83BD3E78D8C3B53C09F33A6FB7CEBF8E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/OMTS\/SpoilerAlertSwiftServer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "907EEBE93BDC282B142DE4EEA580D5C5C12D2916"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-HTTP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9197B75B1BC29921D6E3B1CCDC2B258350009F3A"
+    }
+  ]
+}
